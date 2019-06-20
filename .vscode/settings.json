@@ -1,0 +1,30 @@
+{
+  "breadcrumbs.enabled": true,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": false
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.vscode": false,
+    "**/node_modules": true,
+    "**/public": true
+  },
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.rulers": [100]
+}
